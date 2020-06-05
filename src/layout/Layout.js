@@ -6,6 +6,7 @@ import Waterwheel from '../components/Waterwheel/Waterwheel';
 import EyeFollow from '../components/EyeFollow/EyeFollow';
 import NeonLine from '../components/NeonLine/NeonLine';
 import RoadRail from '../components/RoadRail/RoadRail';
+import MouseScroll from '../components/MouseScroll/MouseScroll';
 
 function Layout() {
   return (
@@ -16,6 +17,7 @@ function Layout() {
       <EyeFollow></EyeFollow>
       <NeonLine></NeonLine>
       <RoadRail></RoadRail>
+      <MouseScroll></MouseScroll>
     </Container>
   );
 }
