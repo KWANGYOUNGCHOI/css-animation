@@ -5,6 +5,7 @@ import CircleWave from '../components/CircleWave/CircleWave';
 import Waterwheel from '../components/Waterwheel/Waterwheel';
 import EyeFollow from '../components/EyeFollow/EyeFollow';
 import NeonLine from '../components/NeonLine/NeonLine';
+import RoadRail from '../components/RoadRail/RoadRail';
 
 function Layout() {
   return (
@@ -14,6 +15,7 @@ function Layout() {
       <Waterwheel></Waterwheel>
       <EyeFollow></EyeFollow>
       <NeonLine></NeonLine>
+      <RoadRail></RoadRail>
     </Container>
   );
 }
