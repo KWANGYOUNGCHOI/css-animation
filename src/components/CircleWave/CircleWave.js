@@ -1,33 +1,28 @@
 import React from 'react';
-import './NeonBtn.css';
+import './CircleWave.css';
 
-function NeonBtn() {
+function CircleWave() {
   return (
-    <div className="neon-b-w">
-      <a href="#">
+    <div className="circle-wave-r">
+      <div className="circle-wave-w">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        NEON BUTTON
-      </a>
-      <a href="#">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        NEON BUTTON
-      </a>
-      <a href="#">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        NEON BUTTON
-      </a>
-
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   );
 }
 
-export default NeonBtn;
+export default CircleWave;
