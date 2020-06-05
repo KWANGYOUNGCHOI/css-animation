@@ -9,6 +9,7 @@ import RoadRail from '../components/RoadRail/RoadRail';
 import MouseScroll from '../components/MouseScroll/MouseScroll';
 import SquareLoader from '../components/SquareLoader/SquareLoader';
 import PhonePulse from '../components/PhonePulse/PhonePulse';
+import HeartTrans from '../components/HeartTrans/HeartTrans';
 
 function Layout() {
   return (
@@ -22,6 +23,7 @@ function Layout() {
       <MouseScroll></MouseScroll>
       <SquareLoader></SquareLoader>
       <PhonePulse></PhonePulse>
+      <HeartTrans></HeartTrans>
     </Container>
   );
 }

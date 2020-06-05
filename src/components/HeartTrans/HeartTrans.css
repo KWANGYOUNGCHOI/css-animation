@@ -1,0 +1,48 @@
+.heart-trans-c
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #FFF;
+}
+.heart-trans-w
+{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #FF0800;
+  background: transparent;
+  border-radius: 50%;
+  transition: 1s;
+}
+.heart-trans-w:hover
+{
+  background: #FF0800;
+  width: 400px;
+  border: 0px;
+  border-radius: 10px;
+  transform: translateX(-100px) rotateZ(45deg);
+}
+.heart-trans-w::before
+{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  border-radius: 50%;
+  transition: 1s;
+  opacity: 0;
+}
+.heart-trans-w:hover::before
+{
+  background: #DF2800;
+  width: 400px;
+  opacity: 1;
+  border-radius: 10px;
+  transform: translateX(-100px) translateY(-200px) rotateZ(270deg);
+}

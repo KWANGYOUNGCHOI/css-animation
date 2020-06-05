@@ -1,18 +1,13 @@
-*
-{
-  background: #050801;
-  margin: 0;
-  padding: 0;
-  font-family: consolas;
-  box-sizing: border-box;
-}
 .neon-b-w
 {
+  background: #050801;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+  font-family: consolas;
+  box-sizing: border-box;
 }
 a 
 {
