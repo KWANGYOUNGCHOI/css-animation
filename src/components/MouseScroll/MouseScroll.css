@@ -11,7 +11,7 @@
   min-height: 100vh;
   background: #262626;
 }
-.down
+.mouse-scroll-w
 {
   position: relative;
   width: 50px;
@@ -21,7 +21,7 @@
   border: 4px solid #FFF;
   overflow: hidden;
 }
-.down::before
+.mouse-scroll-w::before
 {
   content: '';
   position: absolute;
@@ -34,7 +34,7 @@
   transform: translate(-50%, 0);
   animation: mscroll-animate 1s linear infinite;
 }
-.down::after
+.mouse-scroll-w::after
 {
   content: '';
   position: absolute;

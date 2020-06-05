@@ -7,6 +7,7 @@ import EyeFollow from '../components/EyeFollow/EyeFollow';
 import NeonLine from '../components/NeonLine/NeonLine';
 import RoadRail from '../components/RoadRail/RoadRail';
 import MouseScroll from '../components/MouseScroll/MouseScroll';
+import SquareLoader from '../components/SquareLoader/SquareLoader';
 
 function Layout() {
   return (
@@ -18,6 +19,7 @@ function Layout() {
       <NeonLine></NeonLine>
       <RoadRail></RoadRail>
       <MouseScroll></MouseScroll>
+      <SquareLoader></SquareLoader>
     </Container>
   );
 }
