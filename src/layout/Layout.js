@@ -8,6 +8,7 @@ import NeonLine from '../components/NeonLine/NeonLine';
 import RoadRail from '../components/RoadRail/RoadRail';
 import MouseScroll from '../components/MouseScroll/MouseScroll';
 import SquareLoader from '../components/SquareLoader/SquareLoader';
+import PhonePulse from '../components/PhonePulse/PhonePulse';
 
 function Layout() {
   return (
@@ -20,6 +21,7 @@ function Layout() {
       <RoadRail></RoadRail>
       <MouseScroll></MouseScroll>
       <SquareLoader></SquareLoader>
+      <PhonePulse></PhonePulse>
     </Container>
   );
 }

@@ -1,0 +1,67 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.phone-pulse-c
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #262626;
+}
+.phone-pulse-w
+{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #58EA00;
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 84px;
+  font-size: 48px;
+}
+.phone-pulse-w::before,
+.phone-pulse-w::after
+{
+  content: '';
+  display: block;
+  position: absolute;
+  border: 50%; 
+  border: 1px solid #58EA00;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: pp-animate 1.5s linear infinite;
+  opacity: 0;
+}
+.phone-pulse-w::after
+{
+  animation-delay: 0.5s;
+}
+@keyframes pp-animate
+{
+  0%
+  {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50%
+  {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100%
+  {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+.icon-phone
+{
+  background: transparent;
+}
