@@ -10,6 +10,7 @@ import MouseScroll from '../components/MouseScroll/MouseScroll';
 import SquareLoader from '../components/SquareLoader/SquareLoader';
 import PhonePulse from '../components/PhonePulse/PhonePulse';
 import HeartTrans from '../components/HeartTrans/HeartTrans';
+import ArrowDown from '../components/ArrowDown/ArrowDown';
 
 function Layout() {
   return (
@@ -24,6 +25,7 @@ function Layout() {
       <SquareLoader></SquareLoader>
       <PhonePulse></PhonePulse>
       <HeartTrans></HeartTrans>
+      <ArrowDown></ArrowDown>
     </Container>
   );
 }
