@@ -11,6 +11,7 @@ import SquareLoader from '../components/SquareLoader/SquareLoader';
 import PhonePulse from '../components/PhonePulse/PhonePulse';
 import HeartTrans from '../components/HeartTrans/HeartTrans';
 import ArrowDown from '../components/ArrowDown/ArrowDown';
+import HeartPulse from '../components/HeartPulse/HeartPulse';
 
 function Layout() {
   return (
@@ -26,6 +27,7 @@ function Layout() {
       <PhonePulse></PhonePulse>
       <HeartTrans></HeartTrans>
       <ArrowDown></ArrowDown>
+      <HeartPulse></HeartPulse>
     </Container>
   );
 }
